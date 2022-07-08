@@ -33,30 +33,12 @@ public class HomeWork1 {
                             System.out.println("Congratulations " + name + "\n");
                             flag = true;
                         }
-                        //advanced 1
-                        if(flag) {
-                            //for sorting from highest to lowest number
-                            for (i=0;i<counter-1;++i) {
-                                for (j = 0; j < counter - i - 1; ++j) {
-                                    if (numbers[j] < numbers[j + 1]) {
-                                        tempor = numbers[j];
-                                        numbers[j] = numbers[j + 1];
-                                        numbers[j + 1] = tempor;
-                                    }
-                                }
-                            }
-                            //for output
-                            for (j = 0; j < counter; j++) {
-                                System.out.print(numbers[j] + " ");
-                            }
-                            return;
-                        }
-                    } else {
-                        System.out.println("Your input isn't a number: ");
+
+
+                    }
                     }
                 }
             }
         }
 
     }
-}
