@@ -18,9 +18,9 @@ public class Homework4 {
             System.out.println(human.toString());
         }
         // 1
-        Human Kamil = new Human("Kamil", "Muradzade", 1995, 105, new Human("Kamil", "Sardarov", 1998), new Human(), new Pet("cat", "Mur", 3, 60, new String[]{"eat", "play", "sleep"}));
-        Human Nijat = new Human("Fuad", "Javadov", 1970, 107, new Human(), new Human("Murad", "Javadov", 1970), new Pet("cat", "Mur", 3, 60, new String[]{"eat", "play", "sleep"}));
-        Human Salman = new Human("Ahmed", "Javadov", 1970, 110, new Human(), new Human("Farid", "Javadov", 1942), new Pet("cat", "Mur", 3, 60, new String[]{"eat", "play", "sleep"}));
+        Human Kamil = new Human("Kamil", "Muradzade", 1995, 107, new Human("Kamil", "Sardarov", 1998), new Human(), new Pet("cat", "Mur", 3, 60, new String[]{"eat", "play", "sleep"}));
+        Human Nijat = new Human("Fuad", "Muradov", 1983, 110, new Human(), new Human("Murad", "Jafarov", 1990), new Pet("cat", "Mur", 3, 60, new String[]{"eat", "play", "sleep"}));
+        Human Salman = new Human("Ahmed", "Javadov", 1985, 110, new Human(), new Human("Miri", "Sardarov", 1989), new Pet("cat", "Mur", 3, 60, new String[]{"eat", "play", "sleep"}));
         List<Human> HumanList0 = new ArrayList<>();
         HumanList0.add(Nijat);
         for (Human human0 : HumanList0) {
